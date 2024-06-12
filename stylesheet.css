@@ -1,0 +1,503 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.num{
+    display: flex;
+    background-color: cyan;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    border-bottom: 0.2rem groove;
+    border-bottom-color: cyan;
+}
+
+
+#move{
+    color: white;
+    font-size: 1rem;
+}
+
+.ul{
+    display: flex;
+    gap: 0rem;
+}
+
+.header > h1{
+    color: white;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.image{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+}
+
+.main{
+    /*background-color: rgb(75, 72, 72);*/
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    padding-top: 3rem;
+    background-image: url("./images/bg.jpeg");
+    background-size: cover;
+    margin-bottom:-2rem ;
+}
+
+.div1 > h1{
+    color: white;
+}
+
+
+
+span{
+    color: yellow;
+}
+
+.div1 > h2{
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div1 > p{
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+}
+
+.pro{
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+    border: 0.2rem solid aqua;
+    margin-right:-5rem ;
+    margin-left: -3rem;
+}
+
+.hed{
+    margin-left: -15rem;   
+}
+
+.ul > a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 2.1rem;
+    padding: 0.5rem;
+}
+
+.butt{
+    background-color: cyan;
+    padding: 0.2rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    margin-right: 3.5rem;
+}
+    
+
+.butt1{
+    background-color: cyan;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    margin-right: 3rem;
+    margin: 0.3rem;
+}
+a{
+    text-decoration: none;
+}
+
+
+.ul > a:hover{
+    color: red;
+    background-color: aqua;
+    border-radius: 1rem;
+}
+
+.button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    margin-top: 0.8rem;
+    background-color: orange;
+    color: yellow;
+    font-weight: bolder;
+    margin: 1rem;
+
+}
+
+.button > a{
+    text-decoration: none;
+
+}
+
+/* .button{
+ background-color: orange; 
+    padding: 0.2rem;
+    font-size: 1rem;
+    color: white;
+    border-radius: 5rem;
+    text-decoration: none; */
+
+
+.button:hover{
+    background-color: green;
+}
+
+.About-Image{
+    height: 26rem;
+    width: 25.5rem;
+    border-radius: 20% 30%;
+}
+.section{
+    background-color: black;
+    padding-bottom: 5rem;
+}
+
+.section1{
+    display: flex;
+    gap: 1.7rem;
+    padding-top: 1.5rem;
+    padding: 7rem;
+    
+}
+
+.About > h1{
+    color: white;
+    font-size: 55px;
+    margin-left: 1.5rem;
+}
+
+.About > p{
+    color: white;
+    font-size: 1.3rem; 
+    line-height: 2rem;
+}
+
+.h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    padding-top: 2rem;
+    text-decoration-color: aqua;
+}
+
+.div25{
+    color: white;
+    line-height: 1.5rem;
+    font-weight: 100;
+    font-size: 2em;
+}
+
+.container-skills > div{
+    height: 300px;
+    width: 390px;
+    background-color:black;
+    margin: 7px;
+    border-radius: 1rem;
+}
+
+.container-skills{
+    display: flex;
+    margin: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.red12{
+    text-align: center;
+    font-size: 35px;
+}
+
+.container-skills > div h1{
+    text-align: center;
+    color: white;
+}
+
+.container-skills > div img{
+    height: 150px;
+    width: 350px;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+.container-skills > div p{
+    color: white;
+}
+
+ .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color:black; 
+} 
+
+
+.form-input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.contact > div h1{
+    color: white;
+}
+
+.contact > div p{
+    color: white;
+}
+
+.rer{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+}
+
+
+
+
+.nav{
+    display: flex;
+}
+
+#Submit{
+    background-color:red;
+    color: white;
+}
+
+.St{
+    justify-content: center;
+    text-align: center;
+    line-height: 4rem;
+}
+
+
+
+    
+
+    
+    
+/* Media query for smaller screens */
+@media screen and (max-width: 868px) {
+    .header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .image {
+        margin-bottom: 20px;
+    }
+
+    .hed {
+        margin-top: 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ul {
+        margin-top: 10px;
+    }
+
+    .ul a {
+        margin: 10px 0;
+    }
+
+    .butt {
+        width: 100%;
+    }
+    .main{
+        margin-left: -1rem;
+        height: 70vh;
+        display: flex;
+        line-height: 3rem;
+        font-size: 4rem;
+        padding-top: 1rem;
+        background-image: url("./images/bg.jpeg");
+        /* background-size: cover; */
+        padding-left: 2.5rem;
+    }
+
+    .pro {
+        margin-top: 10px;
+        margin-bottom:10px;
+        margin-right: 3rem;
+        height: 140px;
+        width: 140px;
+        transition: none; 
+    
+    }
+    
+    .ul{
+        flex-direction: row;
+         gap: -1rem; 
+        font-weight: 700;
+    }
+
+    .ul > a{
+        text-decoration: none;
+        list-style: none;
+        color: white;
+        font-size: 0.9rem;
+        padding: 0.5rem;
+        margin-left: 1.2rem;
+    }
+
+    .butt{
+        background-color: cyan;
+        padding: 0.2rem;
+        font-size: 1rem;
+        border-radius: 5rem;
+        margin-right: 3.5rem;
+    }
+
+    .image{
+        height: 3rem;
+        width: 3rem;
+        border-radius: 50%;
+    }
+    
+    .hed{
+        margin-left: 0.5rem;
+        font-size: 1.2rem;   
+    }
+
+    
+
+    .main > div1{
+        margin-left: 1rem;
+    }
+    
+
+    .div1{
+        font-size: 1rem;
+        margin-left: 0.5rem;
+    } 
+
+    .div1 > p{
+        color: white;
+        font-size: 0.8rem;
+        line-height: 1.2rem;
+        margin-right: 2rem;
+    }
+
+    .main {
+        /* flex-direction: column; */
+        align-items: center;
+        padding-top: 0.8rem;
+        /* padding-bottom: 16rem; */
+    }
+    
+    /* This is for section */
+    
+    .section{
+        margin-top: 0;
+    }
+
+    .section1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .About-Image{
+        height: 15rem;
+        width: 15rem;
+        border-radius: 20% 30%;
+    }
+
+    .About {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    #Skills,
+    #Services {
+        padding: 20px;
+    }
+
+    .container-skills,
+    .Services-div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container-skills > div,
+    .Services-div > div {
+        width: 100vw;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .section-image{
+        height: 300px;
+        width: -3rem;
+        /* display: none; */
+    }
+
+  
+    
+    .contact{
+       
+      display: block;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+        background-color:black;
+        height: 60vh;
+        margin: 1rem;
+        padding-top: 0.5rem;
+        border-radius: 1rem;
+      
+    } 
+
+    .contact-div {
+            padding-left: 5rem;
+            line-height: 2rem;
+            /* margin-bottom: rem; */
+    }
+   
+    .Services-div > p{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 2rem;
+        height: 20rem;
+    }        
+
+    .about-image{
+        height: 200px;
+        width: 10rem;
+        border-radius: 20% 30%;
+        transition: all 1s ease-in-out;
+    }
+
+        .ta {
+            height: 5rem;
+            width: 13rem;
+        }
+
+        .name-input{
+            height: 3rem;
+            width: 13rem;
+        }
+ 
+    
+}
+
+   
+
+   
